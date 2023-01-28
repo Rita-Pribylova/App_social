@@ -1,0 +1,26 @@
+.header {
+    grid-area: h;
+    background-color: rgb(239, 212, 187);
+}
+
+.header img {
+    width: 70px;
+    margin-left: 10px;
+}
+
+.loginBlock{
+    float: right;
+    margin-top: 15px;
+
+}
+
+.loginBlock a {
+    color:#26af3d;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+/* .logtext {
+    padding-bottom: 150px;
+    color: rgb(198, 60, 60);
+} */

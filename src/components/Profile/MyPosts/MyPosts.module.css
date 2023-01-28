@@ -1,0 +1,19 @@
+.postBlock{
+    padding: 10px;
+}
+
+.posts{
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    background-color: #26af3d;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+}

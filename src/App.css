@@ -1,0 +1,16 @@
+.app-wrapper {
+  display: grid;
+  margin: 0 auto; /*выравнивание посередине*/
+  width: 1200px;
+  grid-template-areas:
+  "h h" /*1я строка займет хэдер в обоих колонках в нашем проекте*/
+  "n c";/*нав займет одну колонку, контент вторую*/
+  grid-template-rows: 60px 1fr; /* количество строк 2 в нашем проекте*/
+  grid-template-columns: 2fr 10fr; /* количество колонок 2 в нашем проекте*/
+  grid-gap: 10px;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  background-color: rgb(246, 243, 240);
+}
